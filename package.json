@@ -1,0 +1,27 @@
+{
+  "name": "nightwatch-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.conf.BASIC.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "nightwatch": "^0.9.16",
+    "selenium-download": "^2.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwoodhurst/nightwatch-assignment.git"
+  },
+  "author": "Brett Woodhurst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwoodhurst/nightwatch-assignment/issues"
+  },
+  "homepage": "https://github.com/bwoodhurst/nightwatch-assignment#readme"
+}
