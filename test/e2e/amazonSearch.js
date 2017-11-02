@@ -16,7 +16,7 @@ module.exports = {
 					prices.push(Number(result.value))
 				});
 			}
-	})
+		})
 	
 	browser.perform(function(done) {
 		console.log('prices', prices);
@@ -34,6 +34,5 @@ module.exports = {
 	browser.click(mostExpensiveShoesOnSearchedPage)
 	
        .end();
- }
- 
+	}
 };
