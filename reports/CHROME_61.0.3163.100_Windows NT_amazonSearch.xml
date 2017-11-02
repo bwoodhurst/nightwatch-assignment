@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
-            tests="1">
-
-  <testsuite name="amazonSearch"
-    errors="1" failures="0" hostname="" id="" package="amazonSearch" skipped="0"
-    tests="1" time="15.66" timestamp="Thu, 02 Nov 2017 05:25:20 GMT">
-  
-    <testcase name="Should navigate to the first pair of the most expensive shoes from a search" classname="amazonSearch" time="15.66" assertions="1">
-
-    
-    </testcase>
-  
-
-  
-    <system-err>
+<?xml version="1.0" encoding="UTF-8" ?> 
+<testsuites errors="1" 
+            failures="0" 
+            tests="1"> 
+ 
+  <testsuite name="amazonSearch" 
+    errors="1" failures="0" hostname="" id="" package="amazonSearch" skipped="0" 
+    tests="1" time="21.56" timestamp="Thu, 02 Nov 2017 05:45:10 GMT"> 
+   
+    <testcase name="Should navigate to the first pair of the most expensive shoes from a search" classname="amazonSearch" time="21.56" assertions="1"> 
+ 
+     
+    </testcase> 
+   
+ 
+   
+    <system-err> 
       ERROR: Unable to locate element: &quot;NaN&quot; using: css selector
     at Object.module.exports.Should navigate to the first pair of the most expensive shoes from a search (C:\Users\Acemontiero\Desktop\nightwatch-assignment\test\e2e\amazonSearch.js:34:10)
     at Module.call (C:\Users\Acemontiero\Desktop\nightwatch-assignment\node_modules\nightwatch\lib\runner\module.js:62:34)
@@ -25,10 +25,10 @@
     at C:\Users\Acemontiero\Desktop\nightwatch-assignment\node_modules\q\q.js:556:49
     at runSingle (C:\Users\Acemontiero\Desktop\nightwatch-assignment\node_modules\q\q.js:137:13)
     at flush (C:\Users\Acemontiero\Desktop\nightwatch-assignment\node_modules\q\q.js:125:13)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    </system-err>
-  
-
-  
-  </testsuite>
-</testsuites>
+    at _combinedTickCallback (internal/process/next_tick.js:67:7) 
+    </system-err> 
+   
+ 
+   
+  </testsuite> 
+</testsuites> 
