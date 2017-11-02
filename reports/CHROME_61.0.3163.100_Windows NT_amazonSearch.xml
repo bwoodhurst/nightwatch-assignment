@@ -5,9 +5,9 @@
 
   <testsuite name="amazonSearch"
     errors="1" failures="0" hostname="" id="" package="amazonSearch" skipped="0"
-    tests="1" time="16.13" timestamp="Thu, 02 Nov 2017 03:04:52 GMT">
+    tests="1" time="15.66" timestamp="Thu, 02 Nov 2017 05:25:20 GMT">
   
-    <testcase name="Should navigate to the first pair of most expensive shoes from a search" classname="amazonSearch" time="16.13" assertions="1">
+    <testcase name="Should navigate to the first pair of the most expensive shoes from a search" classname="amazonSearch" time="15.66" assertions="1">
 
     
     </testcase>
@@ -16,7 +16,7 @@
   
     <system-err>
       ERROR: Unable to locate element: &quot;NaN&quot; using: css selector
-    at Object.module.exports.Should navigate to the first pair of most expensive shoes from a search (C:\Users\Acemontiero\Desktop\nightwatch-assignment\test\e2e\amazonSearch.js:17:11)
+    at Object.module.exports.Should navigate to the first pair of the most expensive shoes from a search (C:\Users\Acemontiero\Desktop\nightwatch-assignment\test\e2e\amazonSearch.js:34:10)
     at Module.call (C:\Users\Acemontiero\Desktop\nightwatch-assignment\node_modules\nightwatch\lib\runner\module.js:62:34)
     at C:\Users\Acemontiero\Desktop\nightwatch-assignment\node_modules\nightwatch\lib\runner\testcase.js:70:29
     at _fulfilled (C:\Users\Acemontiero\Desktop\nightwatch-assignment\node_modules\q\q.js:834:54)

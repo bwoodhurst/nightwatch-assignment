@@ -1,213 +1,174 @@
-20:04:52.238 INFO - Selenium build info: version: '3.5.0', revision: '8def36e068'
-20:04:52.238 INFO - Launching a standalone Selenium Server
-2017-11-01 20:04:52.256:INFO::main: Logging initialized @176ms to org.seleniumhq.jetty9.util.log.StdErrLog
-20:04:52.304 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-20:04:52.329 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
+22:25:19.995 INFO - Selenium build info: version: '3.5.0', revision: '8def36e068'
+22:25:19.995 INFO - Launching a standalone Selenium Server
+2017-11-01 22:25:20.010:INFO::main: Logging initialized @205ms to org.seleniumhq.jetty9.util.log.StdErrLog
+22:25:20.057 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+22:25:20.088 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
-20:04:52.350 INFO - Using the passthrough mode handler
-2017-11-01 20:04:52.371:INFO:osjs.Server:main: jetty-9.4.5.v20170502
-2017-11-01 20:04:52.397:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@1423665{/,null,STARTING} has uncovered http methods for path: /
-2017-11-01 20:04:52.401:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@1423665{/,null,AVAILABLE}
-2017-11-01 20:04:52.423:INFO:osjs.AbstractConnector:main: Started ServerConnector@199d22e{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-11-01 20:04:52.424:INFO:osjs.Server:main: Started @343ms
-20:04:52.424 INFO - Selenium Server is up and running
-2017-11-01 20:04:52.621:INFO:osjshC.ROOT:qtp19270011-9: org.openqa.selenium.remote.server.WebDriverServlet-23a2f9: Initialising WebDriverServlet
-20:04:52.672 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
-20:04:52.672 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@1151bbd
-20:04:52.676 INFO - /session: Executing POST on /session (handler: BeginSession)
-20:04:52.696 INFO - Capabilities are: Capabilities {acceptSslCerts=true, name=Amazon Search, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, }
-20:04:52.697 INFO - Capabilities {acceptSslCerts=true, name=Amazon Search, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-20:04:52.697 INFO - Capabilities {acceptSslCerts=true, name=Amazon Search, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 42014
+22:25:20.104 INFO - Using the passthrough mode handler
+2017-11-01 22:25:20.123:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2017-11-01 22:25:20.155:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@1423665{/,null,STARTING} has uncovered http methods for path: /
+2017-11-01 22:25:20.155:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@1423665{/,null,AVAILABLE}
+2017-11-01 22:25:20.170:INFO:osjs.AbstractConnector:main: Started ServerConnector@199d22e{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-11-01 22:25:20.170:INFO:osjs.Server:main: Started @366ms
+22:25:20.170 INFO - Selenium Server is up and running
+2017-11-01 22:25:20.380:INFO:osjshC.ROOT:qtp19270011-9: org.openqa.selenium.remote.server.WebDriverServlet-23a2f9: Initialising WebDriverServlet
+22:25:20.427 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+22:25:20.427 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@1151bbd
+22:25:20.427 INFO - /session: Executing POST on /session (handler: BeginSession)
+22:25:20.443 INFO - Capabilities are: Capabilities {acceptSslCerts=true, name=Amazon Search, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+22:25:20.443 INFO - Capabilities {acceptSslCerts=true, name=Amazon Search, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+22:25:20.443 INFO - Capabilities {acceptSslCerts=true, name=Amazon Search, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 38056
 Only local connections are allowed.
-20:04:54.920 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:04:54.920 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/url (handler: ServicedSession)
-20:04:54.923 INFO - To upstream: {"url":"https://www.amazon.com/"}
-20:05:00.496 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":0,"value":null}
-20:05:00.505 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:00.505 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/elements (handler: ServicedSession)
-20:05:00.506 INFO - To upstream: {"using":"css selector","value":"input[id=\"twotabsearchtextbox\"]"}
-20:05:00.528 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":0,"value":[{"ELEMENT":"0.7851847039557576-1"}]}
-20:05:00.531 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:00.531 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing GET on /session/8e971b119d700bb48df41f46c284269b/element/0.7851847039557576-1/displayed (handler: ServicedSession)
-20:05:00.547 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":0,"value":true}
-20:05:00.552 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:00.552 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element (handler: ServicedSession)
-20:05:00.553 INFO - To upstream: {"using":"css selector","value":"input[id=\"twotabsearchtextbox\"]"}
-20:05:00.576 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":0,"value":{"ELEMENT":"0.7851847039557576-1"}}
-20:05:00.579 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:00.579 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.7851847039557576-1/value (handler: ServicedSession)
-20:05:00.580 INFO - To upstream: {"value":["N","i","k","e"," ","S","h","o","e","s"]}
-20:05:02.626 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":0,"value":null}
-20:05:02.629 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:02.629 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/keys (handler: ServicedSession)
-20:05:02.630 INFO - To upstream: {"value":["\ue007"]}
-20:05:06.528 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":0,"value":null}
-20:05:06.532 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:06.533 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/elements (handler: ServicedSession)
-20:05:06.534 INFO - To upstream: {"using":"css selector","value":"span.sx-price-whole"}
-20:05:06.553 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":0,"value":[{"ELEMENT":"0.29004072325557284-1"},{"ELEMENT":"0.29004072325557284-2"},{"ELEMENT":"0.29004072325557284-3"},{"ELEMENT":"0.29004072325557284-4"},{"ELEMENT":"0.29004072325557284-5"},{"ELEMENT":"0.29004072325557284-6"},{"ELEMENT":"0.29004072325557284-7"},{"ELEMENT":"0.29004072325557284-8"},{"ELEMENT":"0.29004072325557284-9"},{"ELEMENT":"0.29004072325557284-10"},{"ELEMENT":"0.29004072325557284-11"},{"ELEMENT":"0.29004072325557284-12"},{"ELEMENT":"0.29004072325557284-13"},{"ELEMENT":"0.29004072325557284-14"},{"ELEMENT":"0.29004072325557284-15"},{"ELEMENT":"0.29004072325557284-16"},{"ELEMENT":"0.29004072325557284-17"},{"ELEMENT":"0.29004072325557284-18"},{"ELEMENT":"0.29004072325557284-19"},{"ELEMENT":"0.29004072325557284-20"},{"ELEMENT":"0.29004072325557284-21"},{"ELEMENT":"0.29004072325557284-22"},{"ELEMENT":"0.29004072325557284-23"},{"ELEMENT":"0.29004072325557284-24"},{"ELEMENT":"0.29004072325557284-25"},{"ELEMENT":"0.29004072325557284-26"},{"ELEMENT":"0.29004072325557284-27"},{"ELEMENT":"0.29004072325557284-28"},{"ELEMENT":"0.29004072325557284-29"},{"ELEMENT":"0.29004072325557284-30"},{"ELEMENT":"0.29004072325557284-31"},{"ELEMENT":"0.29004072325557284-32"},{"ELEMENT":"0.29004072325557284-33"},{"ELEMENT":"0.29004072325557284-34"},{"ELEMENT":"0.29004072325557284-35"},{"ELEMENT":"0.29004072325557284-36"},{"ELEMENT":"0.29004072325557284-37"},{"ELEMENT":"0.29004072325557284-38"},{"ELEMENT":"0.29004072325557284-39"}]}
-20:05:06.564 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:06.564 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-1/value (handler: ServicedSession)
-20:05:06.565 INFO - To upstream: {"value":["a","b","c"]}
-20:05:06.606 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:06.609 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:06.609 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-2/value (handler: ServicedSession)
-20:05:06.610 INFO - To upstream: {"value":["a","b","c"]}
-20:05:06.644 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:06.646 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:06.647 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-3/value (handler: ServicedSession)
-20:05:06.648 INFO - To upstream: {"value":["a","b","c"]}
-20:05:06.681 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:06.683 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:06.683 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-4/value (handler: ServicedSession)
-20:05:06.684 INFO - To upstream: {"value":["a","b","c"]}
-20:05:06.718 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:06.720 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:06.720 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-5/value (handler: ServicedSession)
-20:05:06.721 INFO - To upstream: {"value":["a","b","c"]}
-20:05:06.755 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:06.757 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:06.758 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-6/value (handler: ServicedSession)
-20:05:06.759 INFO - To upstream: {"value":["a","b","c"]}
-20:05:06.796 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:06.799 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:06.799 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-7/value (handler: ServicedSession)
-20:05:06.800 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.337 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.339 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.340 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-8/value (handler: ServicedSession)
-20:05:07.341 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.374 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.376 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.376 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-9/value (handler: ServicedSession)
-20:05:07.377 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.411 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.413 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.413 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-10/value (handler: ServicedSession)
-20:05:07.414 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.447 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.449 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.449 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-11/value (handler: ServicedSession)
-20:05:07.450 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.486 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.489 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.489 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-12/value (handler: ServicedSession)
-20:05:07.490 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.529 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.531 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.531 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-13/value (handler: ServicedSession)
-20:05:07.532 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.574 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.578 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.578 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-14/value (handler: ServicedSession)
-20:05:07.579 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.613 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.615 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.616 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-15/value (handler: ServicedSession)
-20:05:07.617 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.649 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.652 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.652 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-16/value (handler: ServicedSession)
-20:05:07.653 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.686 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.689 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.689 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-17/value (handler: ServicedSession)
-20:05:07.690 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.722 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.725 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.725 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-18/value (handler: ServicedSession)
-20:05:07.726 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.763 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.765 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.765 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-19/value (handler: ServicedSession)
-20:05:07.766 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.801 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.804 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.804 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-20/value (handler: ServicedSession)
-20:05:07.805 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.837 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.839 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.840 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-21/value (handler: ServicedSession)
-20:05:07.841 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.874 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.877 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.877 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-22/value (handler: ServicedSession)
-20:05:07.878 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.910 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.912 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.912 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-23/value (handler: ServicedSession)
-20:05:07.913 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.946 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.948 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.949 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-24/value (handler: ServicedSession)
-20:05:07.949 INFO - To upstream: {"value":["a","b","c"]}
-20:05:07.982 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:07.984 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:07.984 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-25/value (handler: ServicedSession)
-20:05:07.985 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.026 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.029 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.029 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-26/value (handler: ServicedSession)
-20:05:08.030 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.064 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.066 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.066 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-27/value (handler: ServicedSession)
-20:05:08.067 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.104 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.106 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.106 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-28/value (handler: ServicedSession)
-20:05:08.107 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.143 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.146 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.146 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-29/value (handler: ServicedSession)
-20:05:08.147 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.183 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.186 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.186 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-30/value (handler: ServicedSession)
-20:05:08.187 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.222 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.225 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.225 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-31/value (handler: ServicedSession)
-20:05:08.226 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.262 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.265 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.265 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-32/value (handler: ServicedSession)
-20:05:08.266 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.304 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.306 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.306 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-33/value (handler: ServicedSession)
-20:05:08.307 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.340 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.343 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.343 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-34/value (handler: ServicedSession)
-20:05:08.344 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.385 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.387 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.387 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-35/value (handler: ServicedSession)
-20:05:08.388 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.437 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.440 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.440 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-36/value (handler: ServicedSession)
-20:05:08.441 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.478 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.480 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.480 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-37/value (handler: ServicedSession)
-20:05:08.481 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.518 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.520 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.521 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-38/value (handler: ServicedSession)
-20:05:08.521 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.555 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.557 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.557 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element/0.29004072325557284-39/value (handler: ServicedSession)
-20:05:08.558 INFO - To upstream: {"value":["a","b","c"]}
-20:05:08.592 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":13,"value":{"message":"unknown error: cannot focus element\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.594 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.594 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing POST on /session/8e971b119d700bb48df41f46c284269b/element (handler: ServicedSession)
-20:05:08.595 INFO - To upstream: {"using":"css selector","value":null}
-20:05:08.597 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":14,"value":{"message":"invalid argument: 'value' must be a string\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
-20:05:08.600 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
-20:05:08.600 INFO - Handler thread for session 8e971b119d700bb48df41f46c284269b (chrome): Executing DELETE on /session/8e971b119d700bb48df41f46c284269b (handler: ServicedSession)
-20:05:08.634 INFO - To downstream: {"sessionId":"8e971b119d700bb48df41f46c284269b","status":0,"value":null}
-20:05:08.636 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:22.687 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:22.687 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing POST on /session/6dd3634311584893755c3c6a07955026/url (handler: ServicedSession)
+22:25:22.687 INFO - To upstream: {"url":"https://www.amazon.com/"}
+22:25:27.213 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":null}
+22:25:27.219 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:27.219 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing POST on /session/6dd3634311584893755c3c6a07955026/elements (handler: ServicedSession)
+22:25:27.221 INFO - To upstream: {"using":"css selector","value":"input[id=\"twotabsearchtextbox\"]"}
+22:25:27.244 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":[{"ELEMENT":"0.18226513709366787-1"}]}
+22:25:27.247 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:27.247 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.18226513709366787-1/displayed (handler: ServicedSession)
+22:25:27.275 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":true}
+22:25:27.278 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:27.279 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing POST on /session/6dd3634311584893755c3c6a07955026/element (handler: ServicedSession)
+22:25:27.280 INFO - To upstream: {"using":"css selector","value":"input[id=\"twotabsearchtextbox\"]"}
+22:25:27.295 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":{"ELEMENT":"0.18226513709366787-1"}}
+22:25:27.298 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:27.298 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing POST on /session/6dd3634311584893755c3c6a07955026/element/0.18226513709366787-1/value (handler: ServicedSession)
+22:25:27.299 INFO - To upstream: {"value":["N","i","k","e"," ","S","h","o","e","s"]}
+22:25:29.626 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":null}
+22:25:29.630 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:29.631 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing POST on /session/6dd3634311584893755c3c6a07955026/keys (handler: ServicedSession)
+22:25:29.632 INFO - To upstream: {"value":["\ue007"]}
+22:25:32.469 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":null}
+22:25:32.471 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:32.471 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing POST on /session/6dd3634311584893755c3c6a07955026/elements (handler: ServicedSession)
+22:25:32.472 INFO - To upstream: {"using":"css selector","value":"span.sx-price-whole"}
+22:25:35.552 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":[{"ELEMENT":"0.5542127678253372-1"},{"ELEMENT":"0.5542127678253372-2"},{"ELEMENT":"0.5542127678253372-3"},{"ELEMENT":"0.5542127678253372-4"},{"ELEMENT":"0.5542127678253372-5"},{"ELEMENT":"0.5542127678253372-6"},{"ELEMENT":"0.5542127678253372-7"},{"ELEMENT":"0.5542127678253372-8"},{"ELEMENT":"0.5542127678253372-9"},{"ELEMENT":"0.5542127678253372-10"},{"ELEMENT":"0.5542127678253372-11"},{"ELEMENT":"0.5542127678253372-12"},{"ELEMENT":"0.5542127678253372-13"},{"ELEMENT":"0.5542127678253372-14"},{"ELEMENT":"0.5542127678253372-15"},{"ELEMENT":"0.5542127678253372-16"},{"ELEMENT":"0.5542127678253372-17"},{"ELEMENT":"0.5542127678253372-18"},{"ELEMENT":"0.5542127678253372-19"},{"ELEMENT":"0.5542127678253372-20"},{"ELEMENT":"0.5542127678253372-21"},{"ELEMENT":"0.5542127678253372-22"},{"ELEMENT":"0.5542127678253372-23"},{"ELEMENT":"0.5542127678253372-24"},{"ELEMENT":"0.5542127678253372-25"},{"ELEMENT":"0.5542127678253372-26"},{"ELEMENT":"0.5542127678253372-27"},{"ELEMENT":"0.5542127678253372-28"},{"ELEMENT":"0.5542127678253372-29"},{"ELEMENT":"0.5542127678253372-30"},{"ELEMENT":"0.5542127678253372-31"},{"ELEMENT":"0.5542127678253372-32"},{"ELEMENT":"0.5542127678253372-33"},{"ELEMENT":"0.5542127678253372-34"},{"ELEMENT":"0.5542127678253372-35"},{"ELEMENT":"0.5542127678253372-36"},{"ELEMENT":"0.5542127678253372-37"},{"ELEMENT":"0.5542127678253372-38"},{"ELEMENT":"0.5542127678253372-39"}]}
+22:25:35.566 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.566 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-1/attribute/innerHTML (handler: ServicedSession)
+22:25:35.573 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"21"}
+22:25:35.576 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.577 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-2/attribute/innerHTML (handler: ServicedSession)
+22:25:35.583 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"33"}
+22:25:35.585 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.585 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-3/attribute/innerHTML (handler: ServicedSession)
+22:25:35.592 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"59"}
+22:25:35.596 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.596 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-4/attribute/innerHTML (handler: ServicedSession)
+22:25:35.606 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"44"}
+22:25:35.609 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.609 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-5/attribute/innerHTML (handler: ServicedSession)
+22:25:35.615 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"50"}
+22:25:35.617 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.617 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-6/attribute/innerHTML (handler: ServicedSession)
+22:25:35.623 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"74"}
+22:25:35.627 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.628 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-7/attribute/innerHTML (handler: ServicedSession)
+22:25:35.635 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"79"}
+22:25:35.637 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.637 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-8/attribute/innerHTML (handler: ServicedSession)
+22:25:35.643 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"53"}
+22:25:35.645 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.646 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-9/attribute/innerHTML (handler: ServicedSession)
+22:25:35.652 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"57"}
+22:25:35.654 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.655 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-10/attribute/innerHTML (handler: ServicedSession)
+22:25:35.660 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"68"}
+22:25:35.663 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.663 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-11/attribute/innerHTML (handler: ServicedSession)
+22:25:35.669 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"67"}
+22:25:35.672 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.672 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-12/attribute/innerHTML (handler: ServicedSession)
+22:25:35.679 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"45"}
+22:25:35.681 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.681 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-13/attribute/innerHTML (handler: ServicedSession)
+22:25:35.686 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"53"}
+22:25:35.689 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.689 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-14/attribute/innerHTML (handler: ServicedSession)
+22:25:35.695 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"37"}
+22:25:35.697 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.698 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-15/attribute/innerHTML (handler: ServicedSession)
+22:25:35.702 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"47"}
+22:25:35.705 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.705 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-16/attribute/innerHTML (handler: ServicedSession)
+22:25:35.717 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"48"}
+22:25:35.719 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.720 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-17/attribute/innerHTML (handler: ServicedSession)
+22:25:35.724 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"43"}
+22:25:35.726 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.727 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-18/attribute/innerHTML (handler: ServicedSession)
+22:25:35.732 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"75"}
+22:25:35.735 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.735 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-19/attribute/innerHTML (handler: ServicedSession)
+22:25:35.740 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"59"}
+22:25:35.742 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.742 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-20/attribute/innerHTML (handler: ServicedSession)
+22:25:35.747 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"39"}
+22:25:35.750 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.750 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-21/attribute/innerHTML (handler: ServicedSession)
+22:25:35.755 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"56"}
+22:25:35.757 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.757 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-22/attribute/innerHTML (handler: ServicedSession)
+22:25:35.762 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"42"}
+22:25:35.764 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.764 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-23/attribute/innerHTML (handler: ServicedSession)
+22:25:35.770 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"66"}
+22:25:35.772 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.772 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-24/attribute/innerHTML (handler: ServicedSession)
+22:25:35.777 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"19"}
+22:25:35.779 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.780 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-25/attribute/innerHTML (handler: ServicedSession)
+22:25:35.784 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"40"}
+22:25:35.787 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.788 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-26/attribute/innerHTML (handler: ServicedSession)
+22:25:35.793 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"64"}
+22:25:35.795 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.795 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-27/attribute/innerHTML (handler: ServicedSession)
+22:25:35.800 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"35"}
+22:25:35.802 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.802 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-28/attribute/innerHTML (handler: ServicedSession)
+22:25:35.807 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"79"}
+22:25:35.809 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.809 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-29/attribute/innerHTML (handler: ServicedSession)
+22:25:35.814 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"43"}
+22:25:35.818 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.818 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-30/attribute/innerHTML (handler: ServicedSession)
+22:25:35.823 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"26"}
+22:25:35.825 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.826 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-31/attribute/innerHTML (handler: ServicedSession)
+22:25:35.833 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"25"}
+22:25:35.835 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.835 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-32/attribute/innerHTML (handler: ServicedSession)
+22:25:35.841 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"50"}
+22:25:35.843 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.843 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-33/attribute/innerHTML (handler: ServicedSession)
+22:25:35.849 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"40"}
+22:25:35.851 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.852 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-34/attribute/innerHTML (handler: ServicedSession)
+22:25:35.858 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"49"}
+22:25:35.861 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.861 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-35/attribute/innerHTML (handler: ServicedSession)
+22:25:35.867 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"42"}
+22:25:35.870 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.870 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-36/attribute/innerHTML (handler: ServicedSession)
+22:25:35.875 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"48"}
+22:25:35.878 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.878 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-37/attribute/innerHTML (handler: ServicedSession)
+22:25:35.883 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"39"}
+22:25:35.885 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.885 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-38/attribute/innerHTML (handler: ServicedSession)
+22:25:35.890 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"19"}
+22:25:35.892 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.892 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing GET on /session/6dd3634311584893755c3c6a07955026/element/0.5542127678253372-39/attribute/innerHTML (handler: ServicedSession)
+22:25:35.897 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":"14"}
+22:25:35.902 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.903 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing POST on /session/6dd3634311584893755c3c6a07955026/element (handler: ServicedSession)
+22:25:35.904 INFO - To upstream: {"using":"css selector","value":null}
+22:25:35.906 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":14,"value":{"message":"invalid argument: 'value' must be a string\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
+22:25:35.910 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@914c6f
+22:25:35.910 INFO - Handler thread for session 6dd3634311584893755c3c6a07955026 (chrome): Executing DELETE on /session/6dd3634311584893755c3c6a07955026 (handler: ServicedSession)
+22:25:35.926 INFO - To downstream: {"sessionId":"6dd3634311584893755c3c6a07955026","status":0,"value":null}
+22:25:35.926 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@914c6f
