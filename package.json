@@ -10,8 +10,12 @@
     "nightwatch": "^0.9.16",
     "selenium-download": "^2.0.10"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nightwatch": "^0.9.16",
+    "selenium-download": "^2.0.10"
+  },
   "scripts": {
+    "e2e": "nightwatch --config nightwatch.conf.BASIC.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
